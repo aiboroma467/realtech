@@ -1,0 +1,319 @@
+
+body{
+  background-color:#ffffff;
+  color:#666666;
+  padding-top: 50px;
+  font-family: 'open_sansregular';
+  font-size: 14px;
+}
+sssection{
+	padding:40px 0px 40px 0px;
+	
+}
+
+.fa-facebook-square{
+  color:rgb(59,89,163)
+}
+.fa-github-square{
+  color:rgb(102,43,129);
+}
+.fa-linkedin-square{
+  color:rgb(0,127,178);
+}
+.fa-twitter{
+  color:rgb(0,172,237);
+}
+.fa-free-code-camp{
+  color:rgb(00,64,02);
+}
+  
+.abpage{
+  background:url("http://ghk.h-cdn.co/assets/15/17/980x490/gallery-1429890420-new-york.jpg");
+  background-size:cover;
+  height: 600px;
+color:#ffffff;
+}
+.portfolio{
+  background: no-repeat center;
+  nnbackground: url("http://blog.kraichgaufoto.de/wp-content/uploads/2012/08/perseiden_1d_17mm_120812.jpg");
+  background-size:cover;
+  height: 600px;
+  padding: 30px 10px 0px 20px;
+}
+.nnpageTwo h2{padding: 0px 0px 0px 30px;}
+.contact{
+  background: no-repeat center;
+  background: url("http://www.vanseodesign.com/blog/wp-content/uploads/2011/10/background-3.jpg");
+  background-size:cover;
+  padding: 0px 0px 10px 0px;
+  height: 600px;
+}
+.about{
+  height: 600px;
+  background-size:cover;
+  background: no-repeat center;
+  nnbackground: url("http://i.imgur.com/cIGSehG.jpg");
+  padding: 40px 40px 80px 40px;
+  font-size: 16px;
+}
+ .about .thumbnail{
+  border-color: #123356;
+  background: #123356;
+}
+.me{
+  width: 300px;
+  height; 300px;
+  border-radius: 10px;
+}
+.aboutHH{color:#333;}
+.block{
+  margin-top: 50px;
+  background-color:black;
+  opacity:.7;
+  padding:30px;
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius: 10px;
+}
+
+.btn-default{
+  background-color:#469BDC;
+  border-color:#469BDC;
+  color:#ffffff;
+  font-size: 1.3em;
+}
+
+.em-text{
+	color:#469BDC !important;
+}
+.jumbotron h1{
+	margin-top:60px;
+}
+p{
+	width:100%;
+	margin-bottom: 40px;
+}
+.jumbotron {
+  background-color:#000000;
+  padding: 60px 10px 0px 50px;
+  height: 500px;
+  overflow:none;
+  color:#ffffff;
+  nopacity: .30;
+	bbbackground:rgba(0,0,0,0.8);
+}
+.jumbotron .showcase-img{
+	width: 75%;
+}
+p{
+  margin:0 0 25px;
+mmfont-size: 10px;
+line-height: 1.6em;
+  
+}
+
+.jumbotron .thumbnail{
+  border-color: black;
+  background: black;
+}
+
+.media{
+background:#ededed;
+padding:10px;
+}
+
+.page-scroll{
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 1s;
+		-moz-transition-property: -webkit-transform;
+		-moz-transition-duration: 1s;
+		color: #ffffff;
+	}
+
+#skill{
+  color: #666666;
+  padding: 30px 0px 0px 0px;
+}
+.progress-bar{
+	text-align: left;
+	padding: 10px 0px 0px 10px;
+	font-weight: 150px;
+	font-size: 1.0em;
+}
+.progress{
+	height: 30px;
+}
+
+
+footer{
+	color:#fff;
+	padding: 30px 0px 20px 0px;
+	background: black;
+  font-size: 1.2em;
+}
+
+/* MEDIA QUERIES */
+	
+	@media(max-width:1200px){
+		
+	}
+	@media(max-width:991px){
+		.showcase-img{
+			display: none;
+		}
+	}
+
+
+	@media(min-width:768px) and (max-width: 990px){
+		.jumbotron .btn {
+			width:25%;
+		}
+		.jumbotron {
+			height: 600px !important;
+			background-size: 100% 100%;
+		}
+		.jumbotron h1{
+			margin-top: 10px;
+		}
+	}
+
+	@media(max-width:768px){
+		.jumbotron {
+			height: 600px !important;
+			background-size: 100% 100%;
+		}
+		.jumbotron h1{
+			margin-top: 10px;
+		}
+	}
+
+	@media(max-width:500px){
+    body p{
+      text-align: center;
+      width:100%;
+      float: none;
+    }
+    .navbar{
+      padding: 0px 0px 0px 0px;
+    }
+		.jumbotron{
+			height: 750px !important;
+			background-image: none;
+			text-align: center;
+			}
+    
+		.jumbotron .btn {
+			width:50%;
+			margin: 0 auto 20px auto;
+      font-size:1.0em;
+		}
+		
+    .block {
+			background-image: none;
+			text-align: center;
+      background-size: 100% 100%;
+      margin-top: 10px;
+			}
+    
+		.abpage .btn {
+			width:50%;
+			margin: 0 auto 15px auto;
+      font-size:1.0em;
+		}
+    .contact{
+     margin-top: 0px;
+			text-align: center;
+      background-size: 100% 100%;
+    }
+    .contact .block{
+      height: 450px !important;
+      text-align: center;
+    }
+    .portfolio{
+      text-align: center;
+      kbackground-size: 100% 100%;
+      height: 1300px !important;
+    }
+    
+    .about{
+      text-align: center;
+      height: 700px !important;
+    }
+    
+		footer p{
+			text-align: center;
+			float: none;
+			padding-top: 20px;
+		}
+	}
+
+.line{
+	max-width: 100%;
+}
+
+
+
+
+/* menu */
+.navbar-brand{
+	color: #ffffff;
+}
+.navbar {
+	min-height: 60px;
+	border: none;
+	font-size: 17px;
+	padding: 5px 40px 5px 40px;
+	margin-bottom:10px;
+	font-family:"helvetica Neue", helvetica, Arial, sans-serif;
+	
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse  .navbar-form {
+	background: #666666;
+	color: #ffffff;
+	padding: 0;
+}
+.navbar-inverse  .navbar-nav > .active > a,.navbar-inverse  .navbar-nav>li>a:hover,.navbar-inverse  .navbar-nav > .active > a, .navbar-inverse  .navbar-nav > .active > a:hover{
+	background: #469BDC;
+	color: #ffffff;
+}
+.navbar-inverse  .navbar-nav > li > a {
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.nav > li {
+	border-right: 1px solid rgb(39, 37, 37);
+}
+.nav > li > a {
+	font-size: 13px;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
